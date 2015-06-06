@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 
@@ -44,27 +45,25 @@ public class MainActivity extends ActionBarActivity {
         switch (view.getId())
         {
             case R.id.bt_spotify:
-                message = "This button will launch my spotify streamer app!";
+                message = getResources().getString(R.string.bt_spotify_toast);
                 break;
             case R.id.bt_scores:
-                message = "This button will launch my scores app!";
+                message = getResources().getString(R.string.bt_scores_toast);
                 break;
             case R.id.bt_library:
-                message = "This button will launch my library app!";
+                message = getResources().getString(R.string.bt_library_toast);
                 break;
             case R.id.bt_build:
-                message = "This button will launch my build it bigger app!";
+                message = getResources().getString(R.string.bt_library_toast);
                 break;
             case R.id.bt_reader:
-                message = "This button will launch my xyz reader app!";
+                message = getResources().getString(R.string.bt_reader_toast);
                 break;
             case R.id.bt_capstone:
-                message = "This button will launch my own app!";
+                message = getResources().getString(R.string.bt_capstone_toast);
                 break;
 
         }
-        Toast toast = Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT);
-        toast.show();
-
+        Toast.makeText(getApplicationContext(),message, Toast.LENGTH_SHORT).show();
     }
 }

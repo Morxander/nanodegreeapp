@@ -2,7 +2,21 @@
 <resources>
 
     <string name="app_name">NanoDegree App</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_text">My Nanodegree Apps!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="bt_spotify_text">SPOTIFY STREAMER</string>
+    <string name="bt_scores_text">SCORES APP</string>
+    <string name="bt_library_text">LIBRARY APP</string>
+    <string name="bt_build_text">BUILD IT BIGGER</string>
+    <string name="bt_reader_text">XYZ READER</string>
+    <string name="bt_capstone_text">CAPSTONE: MY OWN APP</string>
+
+    <string name="bt_spotify_toast">This button will launch my spotify streamer app!</string>
+    <string name="bt_scores_toast">This button will launch my scores app!</string>
+    <string name="bt_library_toast">This button will launch my library app!</string>
+    <string name="bt_build_toast">This button will launch my build it bigger app!</string>
+    <string name="bt_reader_toast">This button will launch my xyz reader app!</string>
+    <string name="bt_capstone_toast">This button will launch my own app!</string>
 
 </resources>
